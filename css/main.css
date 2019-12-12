@@ -92,8 +92,8 @@ ins, mark {text-decoration: none}
 mark {background: #c47529}
 ins {background: #d49855}
 del {text-decoration: line-through}
-::-moz-selection {background: #2E8B57; color: #fff; text-shadow: none} /* selected text */
-::selection {background: #2E8B57; color: #fff; text-shadow: none} /* selected text */
+::-moz-selection {background: #333fab; color: #fff; text-shadow: none} /* selected text */
+::selection {background: #333fab; color: #fff; text-shadow: none} /* selected text */
 
 /* OTHERS */
 strong, b, dt { font-weight: bold}
