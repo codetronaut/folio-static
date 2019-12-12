@@ -201,7 +201,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   padding: 30px 20px;
   background: #fff;
   border: 1px solid #f1f1f1;
-  box-shadow: 0px 6px #2E8B57;
+  box-shadow: 0px 6px #333fab;
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -286,7 +286,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 
 }
 .info h4, #header h4{
-  color: #59BD85;
+  color: #333fab;
   margin-bottom: 2em;
 }
 .info h6, #header h6{
