@@ -185,7 +185,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   margin-bottom:0px;
 }
 #header .visible{
-  opacity: 1;
+  opacity:1;
 }
 
 /* Tabs */
@@ -286,7 +286,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 
 }
 .info h4, #header h4{
-  color: #333fab;
+  color: #a8aee6;
   margin-bottom: 2em;
 }
 .info h6, #header h6{
