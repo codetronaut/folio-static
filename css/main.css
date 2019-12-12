@@ -243,7 +243,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 
 .tab a.active {
   padding-top: 10px;
-  color: #2E8B57;
+  color: #333fab;
 }
 .tab a i{
   font-size: 16px;
@@ -362,7 +362,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 .item-box .item-data p{
   margin: 0px;
   font-size: 12px;
-  color: #2E8B57;
+  color: #333fab;
   text-decoration-style: bold;
 }
 
@@ -512,12 +512,12 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 }
 
 .label-success {
-  background-color: #5cb85c;
+  background-color: #333fab;
 }
 
 .label-success[href]:hover,
 .label-success[href]:focus {
-  background-color: #449d44;
+  background-color: #333fab;
 }
 
 .label-warning {
@@ -540,7 +540,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 .project-container{
   max-width: 240px;
   border-radius:5px;
-  background-color: #5cb85c;
+  background-color: #333fab;
   color:#fff;
   cursor: pointer;
   box-shadow: 2px 2px 5px 3px #5cb85c27;
@@ -602,7 +602,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 }
 
 .emerald > span {
-  background-color: #2E8B57;
+  background-color: #333fab;
 
 }
 
@@ -809,7 +809,7 @@ Change widths as necessary
   p, h2, h3 {orphans: 3; widows: 3}
   h2, h3{page-break-after: avoid}
 }
-.project-div { background-color: #4AB478; text-align: center; padding: 10px; }
+.project-div { background-color: #333fab; text-align: center; padding: 10px; }
 .image {height: 100px;background-color: white;margin-bottom: 10px;font-family: Sofia;text-align: center;padding-top:30px;font-size: 20px;font-weight: bold;}
 .data { font-size: 150%;font-family: 'Amaranth';color: white;}
 td {padding: 20px;width:250px;height: 200px;}
