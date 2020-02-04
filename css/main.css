@@ -132,6 +132,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   background: #ccc;
   color: #000;
   padding: 0.2em 0;
+  
 }
 .clear{
   clear:both;
@@ -795,6 +796,40 @@ Change widths as necessary
   body {} /* 18.5px / 28px */
 }
 
+/* code that is here, until the first @media block, will apply to any screen size */
+#somethingorother {
+  width: 800px ;
+}
+
+@media only screen and (max-width: 320px) {
+  /* comes into effect for screens less than or equal to 320 pixels */
+  #somethingorother {
+    width: 120px ;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  /* comes into effect for screens between 321 and 480 pixels (inclusive) */
+  #somethingorother {
+    width: 320px ;
+  }
+}
+@media only screen and (min-width: 481px) {
+  /* comes into effect for screens larger than or equal to 481 pixels */
+  #somethingorother {
+    width: 480px ;
+  }
+}
+
+/* code that is here will apply to any screen size */
+
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+@-ms-viewport {
+  width: device-width ;
+}
 
 /* PRINT */
 @media print {
